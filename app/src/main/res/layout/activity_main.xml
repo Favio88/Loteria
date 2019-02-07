@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/btn_limpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/limpiar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_carta1"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/alacran"
+            android:layout_margin="5dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/btn_carta2"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/catrin"
+            android:layout_margin="5dp"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/btn_carta3"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/dama"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta4"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/estrella"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_carta5"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/musico"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta6"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/sol"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta7"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/arbol"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta8"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/jaras"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_carta9"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/mano"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta10"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/gorrito"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta11"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/arana"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta12"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bandera"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_carta13"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/escalera"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta14"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/barril"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta15"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/tambor"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+        <Button
+            android:id="@+id/btn_carta16"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:background="@drawable/mundo"
+            android:layout_margin="5dp"
+            android:textSize="70sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/txtv_ganador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
